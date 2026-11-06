@@ -1,45 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
+  <title>Mohamed Nassir – Étudiant en Master Smart Industry</title>
+  <meta name="description" content="Portfolio de Mohamed Nassir : automatisation, systèmes embarqués, robotique et industrie 4.0.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Student in [your field] at [your school]</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section id="about">
-    <h2>About me</h2>
-    <p>Write a short introduction here.</p>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <p><strong>Master's in ...</strong>, School name (2025 - present)</p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Project title</h3>
-      <p>What the problem was, what you did, tools used.</p>
-      <a href="#">View on GitHub</a>
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Mohamed Nassir</h1>
+      <p class="role">Étudiant en Master Smart Industry<br>Licence en Production Industrielle – Mécatronique</p>
+      <p class="status">Recherche un stage PFE de 4 mois en automatisation et industrie 4.0, disponible à partir de février 2027.</p>
+      <nav aria-label="Navigation principale">
+        <a href="#profil">Profil</a>
+        <a href="#experience">Expérience</a>
+        <a href="#formation">Formation</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+    <img class="photo" src="photo.jpg" alt="Portrait de Mohamed Nassir" width="180" height="180" onerror="this.style.display='none'">
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="profil">
+    <h2>Profil</h2>
+    <p>Étudiant en Master Smart Industry à la FSDM de Fès et responsable technique du club FSDM Robotics. Titulaire d'une Licence en Production Industrielle – Mécatronique, je travaille sur les systèmes embarqués (STM32, ESP32, Arduino), l'automatisation et la simulation (MATLAB/Simulink) et la conception CAO (CATIA, SolidWorks).</p>
+  </section>
+
+  <section id="experience">
+    <h2>Expérience professionnelle</h2>
+
+    <article class="entry">
+      <div class="when">Avril – juin 2025</div>
+      <div>
+        <h3>Stage technique – ESIATECH, Tanger</h3>
+        <p class="where">Zone industrielle de Gzenaya</p>
+        <ul>
+          <li>Conception mécanique d'une machine CNC Router : modélisation 3D (SolidWorks, CATIA), structure, guidage et liaisons.</li>
+          <li>Préparation à la fabrication : parcours d'usinage sous GibbsCAM et plans de pièces.</li>
+          <li>Intégration des éléments mécaniques et de commande de la machine.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="entry">
+      <div class="when">Avril – juin 2024</div>
+      <div>
+        <h3>Stage technique – ONEE, Khouribga</h3>
+        <ul>
+          <li>Analyse des incidents survenus sur le réseau électrique haute tension et identification des causes probables.</li>
+          <li>Proposition de solutions correctives pour limiter les incidents et améliorer la fiabilité du réseau.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="entry">
+      <div class="when">Juin 2023</div>
+      <div>
+        <h3>Stage technique – OCP, Laverie de Béni-Amir</h3>
+        <p class="where">Khouribga</p>
+        <ul>
+          <li>Étude du système de criblage et des étapes de séparation et de traitement des matériaux.</li>
+          <li>Modélisation 3D du système de criblage sous SolidWorks.</li>
+          <li>Participation à une intervention de soudure sur une partie du système lors d'une défaillance.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="entry">
+      <div class="when">Juillet – août 2022</div>
+      <div>
+        <h3>Stage technique – OCP, Station de tête du pipeline</h3>
+        <p class="where">Khouribga</p>
+        <ul>
+          <li>Intégration à l'équipe de supervision : réunions quotidiennes d'analyse et de répartition des tâches.</li>
+          <li>Rondes de contrôle des capteurs de débit et de pression, des électrovannes et des bacs avec agitateurs.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <section id="formation">
+    <h2>Formation</h2>
+
+    <article class="entry">
+      <div class="when">2025 – 2026<br>(en cours)</div>
+      <div><h3>Master Smart Industry</h3><p class="where">FSDM Fès</p></div>
+    </article>
+
+    <article class="entry">
+      <div class="when">2024 – 2025</div>
+      <div>
+        <h3>Licence Production Industrielle : Mécatronique</h3>
+        <p class="where">EST Fès</p>
+        <ul>
+          <li>PFE : cahier des charges, conception et réalisation d'une machine CNC Router.</li>
+          <li>Usinage CNC manuel et automatique, conception sous CATIA.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="entry">
+      <div class="when">2021 – 2024</div>
+      <div>
+        <h3>DUT Génie Industriel et Maintenance</h3>
+        <p class="where">EST Béni-Mellal</p>
+        <ul><li>PFE : maquette de régulation de vitesse (système ABS).</li></ul>
+      </div>
+    </article>
+
+    <article class="entry">
+      <div class="when">2020 – 2021</div>
+      <div><h3>DEUG Génie Électrique – Génie Mécanique</h3><p class="where">FST Béni-Mellal (1re année validée)</p></div>
+    </article>
+
+    <article class="entry">
+      <div class="when">2019 – 2020</div>
+      <div><h3>Baccalauréat Sciences et Technologies Mécaniques</h3><p class="where">Lycée Ibn Yassine</p></div>
+    </article>
+  </section>
+
+  <section id="projets">
+    <h2>Projets</h2>
+    <div class="projects">
+      <article class="project">
+        <h3>Asservissement de vitesse d'un moteur à courant continu</h3>
+        <p class="where">PFE, EST Béni-Mellal</p>
+        <p>Réglage des paramètres PID (Kp, Ki, Kd) par trois potentiomètres.</p>
+      </article>
+      <article class="project">
+        <h3>Prototype de drone Arduino Nano</h3>
+        <p class="where">FST Béni-Mellal</p>
+        <p>Gyroscope et capteur de position. La contrainte de poids de la batterie a été résolue par une alimentation filaire.</p>
+      </article>
+      <article class="project">
+        <h3>Chaîne de production et de recyclage</h3>
+        <p class="where">Simulation SIMIO</p>
+        <p>Simulation des flux de production, d'information et de recyclage d'une pièce en fer.</p>
+      </article>
+      <article class="project">
+        <h3>Blockchain</h3>
+        <p class="where">Travaux pratiques</p>
+        <p>Étude du fonctionnement de la blockchain et utilisation de MetaMask.</p>
+      </article>
+    </div>
+
+    <h3 class="sub">Club FSDM Robotics – responsable technique (2025 – 2026)</h3>
+    <ul>
+      <li>Encadrement et réalisation de projets Arduino.</li>
+      <li>Robot suiveur de ligne (capteurs infrarouges) et robot radar : scan des obstacles et transmission des données au PC.</li>
+      <li>Robot pompier : détection de flamme et extinction par mini-pompe.</li>
+    </ul>
+  </section>
+
+  <section id="competences">
+    <h2>Compétences</h2>
+    <dl class="skills">
+      <dt>CAO / FAO</dt><dd>CATIA, SolidWorks, Autodesk, GibbsCAM</dd>
+      <dt>Usinage</dt><dd>CNC manuel et automatique</dd>
+      <dt>Systèmes embarqués</dt><dd>STM32, ESP32, Arduino, C/C++</dd>
+      <dt>Automatisme</dt><dd>MATLAB/Simulink, Proteus, régulation PID</dd>
+      <dt>Simulation de flux</dt><dd>SIMIO</dd>
+      <dt>IoT industriel</dt><dd>Modbus TCP/IP, Python, Linux (Ubuntu)</dd>
+      <dt>Robotique</dt><dd>Capteurs, moteurs, servomoteurs, ROS 2 (initiation)</dd>
+      <dt>IA et données</dt><dd>MLP, ELM (MATLAB, Python)</dd>
+      <dt>Langues</dt><dd>Arabe (langue maternelle), français (courant), anglais (courant)</dd>
+      <dt>Centres d'intérêt</dt><dd>Basketball, fabrication en bois</dd>
+    </dl>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: you@example.com</p>
+    <p>Pour un stage PFE ou une collaboration, écrivez-moi :</p>
+    <p><a class="mail" href="mailto:nassirmohamed67@gmail.com">nassirmohamed67@gmail.com</a></p>
+    <p class="where">Khouribga, Maroc</p>
+    <!-- Ajoutez ici vos liens : <a href="https://www.linkedin.com/in/...">LinkedIn</a> · <a href="https://github.com/mohamednassir-ADM">GitHub</a> -->
   </section>
+
+</main>
+
+<footer class="wrap">
+  <p>© 2026 Mohamed Nassir</p>
+</footer>
+
 </body>
 </html>
